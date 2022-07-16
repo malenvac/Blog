@@ -1,3 +1,11 @@
+:root{
+    --very-light-pink: #C7C7C7;
+    --pink:#f79fbe;   /* https://paletadecolores.online/colors/f79fbe/ */
+
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -9,15 +17,11 @@ body {
 
 }
 
-a {
-    text-decoration: none;
-    display: inline;
-    color: rgb(63, 3, 88);
-}
 
 header {
     width: 100%;
     height: 140px;
+
     display: grid;
     grid-template-rows: 1fr 1fr;
 
@@ -28,6 +32,7 @@ header .header-icons-container {
     height: 50px;
     display: grid;
     background-color: #e0afff;
+
 }
 
 header .header-icons-container .icons {
@@ -39,4 +44,20 @@ header .header-icons-container .icons {
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+}
+
+header .header-icons-container .icons a {
+    color: rgb(145, 4, 75);
+    font-size: 25px;
+
+}
+nav {
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.navegacion {
+    font-size: 60px;
+    color: black;
 }
